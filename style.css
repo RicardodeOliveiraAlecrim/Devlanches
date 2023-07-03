@@ -140,3 +140,12 @@ label {
   color: black;
   opacity: 0.4;
 }
+
+.money {
+  font-weight: 15px;
+  color: #230505;
+  background:none;
+
+  border: 0;
+  
+}
