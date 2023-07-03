@@ -7,7 +7,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <title>ThiguiLanches</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+  <title>LanchãodoDev</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -15,102 +18,104 @@
 
   
   <content class="conteudo">
-    <header>
-      <img class="logo"     src="https://www.sabornamesa.com.br/media/k2/items/cache/bf1e20a4462b71e3cc4cece2a8c96ac8_XL.jpg">
-    </header>
     
-    <main>
+      <header>
+        <img class="logo"     src="https://www.sabornamesa.com.br/media/k2/items/cache/bf1e20a4462b71e3cc4cece2a8c96ac8_XL.jpg">
+      <h1 class="title">Lanchao do Dev</h1>
+      </header>
       
-      <aside>
-          <nav class="options">
+      <main>
+        
+          <aside>
+            <nav class="options">
+                  
+              <label class="food">Escolha seu lanche
+                <select class="select-food">
+                  <option>X-Salada</option>
+                  <option>X-burguer</option>
+                  <option>X-Bacon</option>
+                  <option>X-Tudo</option>
+                </select>
+              </label>
+              
+              <label class="drinks">Escolha sua bebida
+                <select class="select-drinks">
+                  <option>Agua</option>
+                  <option>Suco de Laranja</option>
+                  <option>Coca-cola</option>
+                  <option>Cerveja</option>
+                </select>
+              </label>
+              
+              <label class="extras">Quer adicional?
+                <select class="select-extras">
+                  <option>Batata-palha</option>
+                  <option>Bolo de cenoura</option>
+                  <option>Sorvete</option>
+                  <option>Mini churros</option>
+                </select>
+              </label>
+            </nav>
+      
+            <nav class="finish">
+              
+              <label class="payment">Forma de Pagamento
+                <select class="type-payment">
+                  <option>Dinheiro</option>
+                  <option>Débito</option></option>
+                  <option>Crédito</option>
+                  <option>Pix</option>
+                </select>
+              </label>
+          
+              <label class="delivery">Retirada
+                <select class="type-delivery">
+                  <option>Entregar</option>
+                  <option>Vou comer no local</option></option>
+                  <option>Vou retirar o pedido</option>          
+                </select>
+              </label>
             
-            <label class="food">Escolha seu lanche
-              <select class="select-food">
-                <option>X-Salada</option>
-                <option>X-burguer</option>
-                <option>X-Bacon</option>
-                <option>X-Tudo</option>
-              </select>
-            </label>
-        
-            <label class="drinks">Escolha sua bebida
-              <select class="select-drinks">
-                <option>Agua</option>
-                <option>Suco de Laranja</option>
-                <option>Coca-cola</option>
-                <option>Cerveja</option>
-              </select>
-            </label>
-        
-            <label class="extras">Quer adicional?
-              <select class="select-extras">
-                <option>Batata-palha</option>
-                <option>Bolo de cenoura</option>
-                <option>Sorvete</option>
-                <option>Mini churros</option>
-              </select>
-            </label>
-        </nav>
-
-        <nav class="finish">
-        
-        <label class="payment">Forma de Pagamento
-          <select class="type-payment">
-            <option>Dinheiro</option>
-            <option>Débito</option></option>
-            <option>Crédito</option>
-            <option>Pix</option>
-          </select>
-        </label>
+              
+            </nav>
+      
+              
+            
+          </aside>
+          
+          
+      
+      
+        <form class="information">
+              
+          <div class="inform">  
+          <label class="info-label">Nome:
+                <input>            
+              </label>
+              
+              <label class="info-label">Endereço:
+                <input>            
+              </label>
+              
+              <label class="info-label">Email:
+                <input>            
+              </label>
+          </div>
     
-        <label class="delivery">Retirada
-          <select class="type-delivery">
-            <option>Entregar</option>
-            <option>Vou comer no local</option></option>
-            <option>Vou retirar o pedido</option>          
-          </select>
-        </label>
-      
-        
-      </nav>
-
-        
-      
-    </aside>
-      
-      
-  
-  
-    <form class="information">
-          
-      <div class="inform">  
-      <label>Nome:
-            <input>            
-          </label>
-          
-          <label>Endereço:
-            <input>            
-          </label>
-          
-          <label>Email:
-            <input>            
-          </label>
-      </div>
-
-      <div class="confirm">
-
-        <button type=confirm class="confirm-button">Comprar</button>
-       </div>
-
-                    
+          <div class="confirm">
+    
+            <button type=confirm class="confirm-button">Comprar</button>
+           </div>
+    
+                        
         </form>
-  
-  
-  
-  
     
-
-  </main>
+    
+    
+    
+      
+  
+      </main>
 
   </content>
 

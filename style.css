@@ -14,11 +14,19 @@ html {
 }
 
 body {
-  background-image: url("https://images.app.goo.gl/cCveF9L6ShNzMn7r8"); 
+  background-image: ("https://img.freepik.com/fotos-gratis/vista-superior-hamburgueres-com-batatas-fritas-em-um-saco_23-2148235101.jpg?w=2000")
   background-repeat: none;
   background-size: cover;
 
 }
+
+.title {
+   font-size: 100px;
+  font-weight: 30px;
+  color: #913203;
+  font-family: 'Fasthand', cursive;
+}
+
 .logo {
   width: 20%;
   margin-right: auto;
@@ -64,13 +72,15 @@ body {
 .information {
   
   display: inline-block;
-  text-align: center;
-  width: 100vw;
-  height: 100;
+  width: 100%;
+  height: 100px;
   padding: 20px;
   background: #9dcc74;
   font-weight: 15px;
   color: #525252;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
 
 }
 
@@ -89,13 +99,40 @@ label {
 
 .inform {
   display:inline-block;
-  text-align:left;
-  padding: 10px;
-
+  padding-left: 15px;
+  position: absolute;
+  left: 0;
+  
+  
   }
   
 .confirm {
   display:inline-block;
-  text-align: center;
   padding: 10px;
+}
+
+.info-label {
+  text-align: left;
+}
+
+.confirm-button {
+  height: 10 px;
+  width: auto;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bolder;
+  border-radius: 8px;
+  background: indianred;
+  color: white;
+  box-shadow: 3px 1px 3px black;
+  margin-top: auto;
+  margin-bottom: auto;  
+}
+
+.confirm-button:hover {
+  opacity: 0.8;
+}
+.confirm-button:active {
+  color: black;
+  opacity: 0.5;
 }
