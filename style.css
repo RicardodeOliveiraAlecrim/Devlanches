@@ -143,9 +143,13 @@ label {
 
 .money {
   font-weight: 15px;
-  color: #230505;
   background:none;
-
-  border: 0;
-  
+  border: 0;  
+  opacity: 0
+  ;
+}
+.money::placeholder {
+  color: #290f0f;
+  font-weight: bolder;
+  text-align: center;
 }
