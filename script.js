@@ -1,27 +1,32 @@
-const confirmedButton = document.querySelector(".confirm-button")
+
+const anotedButton = document.querySelector(".note-button")
 
 
-function finishOrder() {
 
-const orderFood = document.querySelector (".select-food")
+const orderFood = document.querySelector(".select-food")
 
-const drinks = document.queryselector (".select-drinks")
+const orderDrink = document.querySelector(".select-drinks")
 
-const extras = document.queryselector (".select-extras")
+const orderExtra = document.querySelector(".select-extras")
 
-const pay = document.queryselector (".type-payment")
+const money = document.querySelector(".money")
 
-const delivery = document.queryselector (".type-delivery")
 
-const moneyPay  = document.querySelector(".money")
 
-console.log (".money".value)
-console.log (".type-delivery".value)
-console.log (".type-payment".value)
-console.log (".select-extras".value)
-console.log (".select-drinks".value)
-console.log (".select-food".value)
-  
+
+function values() {
+
+
+  const plusMoney = orderFood.value + orderDrink.value + orderExtra.value
+
+  money.innerHTML = plusMoney.value
+
+
+  console.log(orderFood)
+
+
+
 }
 
-confirmedButton.addEventListener("click", finishOrder)
+anotedButton.addEventListener("click", values)
+
