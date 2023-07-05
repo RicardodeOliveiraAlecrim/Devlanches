@@ -1,35 +1,45 @@
 html {
-
   height: 100%;
   width: 100%;
-
 }
 
 
 * {
-
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+}
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.topper-link {
+  color: white;
+  margin-right: 7px;
+}
+
+.adress-topper {
+  margin-top: 7px;
+}
+
+header, .menu {
+  background: #691b1b;
+  font-weight: bolder;
 }
 
 .topper {
-  background: #691b1b;
   width: 100vw;
   height: 50px;
   padding: 25px;
-
-
 }
 
 .social-media-topper {
   height: 50px;
   width: 50px;
   padding: 5px;
-
-
 }
 
 .information-topper {
@@ -37,6 +47,7 @@ html {
   position: relative;
   top: 0;
   left: 0;
+  color: white;
 
 }
 
@@ -49,7 +60,6 @@ html {
 
 .div-logo {
   display: inline-block;
-  background: #691b1b;
   width: 100vw;
   height: 500px;
 }
@@ -60,20 +70,91 @@ html {
   border-radius: 50%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15%;
+  margin-top: 5%;
+}
 
+.nav-topper {
+  width: 100vw;
+  height: 50px;
+  padding: 10px;
+  background-image: linear-gradient(to bottom, #691b1b, #000000);
+  text-align: center;
 }
 
 .home {
-  width: 1200px;
-  overflow: auto;
-  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
 }
 
-#home1 {
-  width: 1300px;
+.slider {
+  display: flex;
+  animation: slider-animation 10s infinite;
 }
 
-#home2 {
-  width: 1300px;
+.slider img {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes slider-animation {
+  0% {
+    transform: translateX(0);
+  }
+
+  33.33% {
+    transform: translateX(-100%);
+  }
+
+  66.67% {
+    transfoRm: translateX(-200%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+
+}
+
+.logo-about {
+  height: 1000px;
+  text-align: center;
+  padding: 100px;
+  font-size: 25px;
+  color: #5e5e5e;
+}
+
+.image-about {
+  margin-bottom:200px;
+  height: 300px;
+  display: flex;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu {
+  padding: 35px;    
+}
+
+.cards {
+  display: inline-block
+}
+
+.menu-image {
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 10%;  
+}
+
+.cards-image {
+  height: 269px;
+}
+
+.photos {
+  padding: 30px;
+  align-items:center
+}
+
+.photos-images {
+width: 49.8%;
 }
