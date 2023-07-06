@@ -22,7 +22,6 @@ a {
 .topper-link {
   color: white;
   margin-right: 7px;
-  scroll-behavior: smooth;
 }
 
 .adress-topper {
@@ -90,47 +89,6 @@ header,
   margin-left: 10px;
 }
 
-.home {
-  width: 100%;
-  overflow: hidden;
-}
-
-.slider {
-  display: flex;
-  overflow-x: auto;
-  scroll-behavior: smooth;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  animation: slider-animation 10s infinite;
-}
-
-.slider::-webkit-scrollbar {
-  display: none;
-}
-
-.slider img {
-  width: 100%;
-  height: auto;
-}
-
-@keyframes slider-animation {
-  0% {
-    transform: translateX(0);
-  }
-
-  33.33% {
-    transform: translateX(-100%);
-  }
-
-  66.67% {
-    transfoRm: translateX(-200%);
-  }
-
-  100% {
-    transform: translateX(0%);
-  }
-
-}
 
 .logo-about {
   height: 1000px;
@@ -284,3 +242,11 @@ a {
 .assignment a {
   color: #F7D118;
 }
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) and (orientation:portrait) {}
