@@ -209,6 +209,13 @@ header,
   margin-right: auto;
 }
 
+.contact-about input::placeholder {
+  position: absolute;
+  top: 2.5px;
+  left: 2.5px;
+  
+}
+
 button {
   background: #302728;
   color: #F7D118;
