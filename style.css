@@ -213,7 +213,7 @@ header,
   position: absolute;
   top: 2.5px;
   left: 2.5px;
-  
+
 }
 
 button {
@@ -306,165 +306,171 @@ a {
 
 
 
-.topper {
-  padding: 1px;
-}
+  .topper {
+    padding: 1px;
+  }
 
-.information-topper, #desktop1, #desktop2, #desktop3, #desktop4 {
-  display: none;
-  
-}
+  .information-topper,
+  #desktop1,
+  #desktop2,
+  #desktop3,
+  #desktop4 {
+    display: none;
 
-header {
-  height: 400px;
-  
-}
-  
-.nav-topper {
-  position: relative;
-  bottom: 200px;
-}
+  }
 
-.nav-topper a {
-  font-size: 15px;
-  
-}
-  
-.logo {  
-  width: 200px;
-  height: auto;
-}
+  header {
+    height: 400px;
 
-.logo-about {
-  padding: 10px;
-  text-align: justify;
-  
-}
+  }
 
-.image-about {  
-  height: 200px;
-}
+  .nav-topper {
+    position: relative;
+    bottom: 200px;
+  }
 
-.photos {  
-  margin: 0;
-  padding: 0px;
-  width: 100vw;
-  align-itens: center;
-  padding: 5px;
-  background: #302728;
-  
-}
+  .nav-topper a {
+    font-size: 15px;
 
-.photos img {
-  margin: -2px;
-  width: 49vw;
-  display: inline-block;
-  
-}
+  }
 
-.menu-image {  
-  display: block;
-  width: 100%;
-  margin: 0;
-}
+  .logo {
+    width: 200px;
+    height: auto;
+  }
 
-.menu-image img {
-  width: 200px;
-  height: auto;
-  display: block;
-  margin: auto;
-  
-}
+  .logo-about {
+    padding: 10px;
+    text-align: justify;
 
-.cards {      
-  display: inline-block;
-  width: 100%;
-  
-}
+  }
 
-.cards-image {
-  width: 200px;
-  height: auto;
-  display: block;
-  margin: auto
-}
+  .image-about {
+    height: 200px;
+  }
 
-.menu {
-  padding: 1%;
-  
-}
-  
-  
-.form-contact {  
-  width: 100vw;
-  padding-left: 6vw;
-  padding-right: 6vw;
-   
-}
+  .photos {
+    margin: 0;
+    padding: 0px;
+    width: 100vw;
+    align-itens: center;
+    padding: 5px;
+    background: #302728;
 
-.form-contact input {  
-  display: inline-block;
-  width: 40vw;
-  margin: 3.3px;
-    
-}
+  }
 
-button {  
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
+  .photos img {
+    margin: -2px;
+    width: 49vw;
+    display: inline-block;
 
-.contact-about {  
-  display: block;   
-  
-}
+  }
 
-.contact-about input {  
-  width: 82vw;
-}
+  .menu-image {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+
+  .menu-image img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+
+  }
+
+  .cards {
+    display: inline-block;
+    width: 100%;
+
+  }
+
+  .cards-image {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto
+  }
+
+  .menu {
+    padding: 1%;
+
+  }
 
 
+  .form-contact {
+    width: 100vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
 
-  
-.first-adress {   
-  display: block;
-  position: relative;
-  bottom: 0px;
-  right: 0;
-  margin-left: 2vw;
-  margin-top: 50px;
-  margin-bottom: 25px;
-}
+  }
 
-.second-adress {    
-  display: block;
-  position: relative;
-  left: 2vw;
-  top: 0;
-  margin-right: 0;
-  margin-top: 50px;
-  margin-bottom: 25px;
-  font-height: 10px;
-    
-}
-  
-.second-adress a {
-  font-size: 15px;
-  
-}
+  .form-contact input {
+    display: inline-block;
+    width: 40vw;
+    margin: 3.3px;
 
-.image-topper {
-  position: relative;
-  left: 4vw;
-    
-}
+  }
 
-.assignment { 
-  font-size: 15px;
+  button {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 
-}
+  }
+
+  .contact-about {
+    display: block;
+
+  }
+
+  .contact-about input {
+    width: 82vw;
+  }
+
+
+
+
+  .first-adress {
+    display: block;
+    position: relative;
+    bottom: 0px;
+    right: 0;
+    margin-left: 2vw;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: 200px;
+  }
+
+  .second-adress {
+    display: block;
+    position: relative;
+    left: 2vw;
+    top: 0;
+    margin-right: 0;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 10px;
+    width: 200px;
+
+  }
+
+  .second-adress a {
+    font-size: 15px;
+
+  }
+
+  .image-topper {
+    position: relative;
+    left: 4vw;
+
+  }
+
+  .assignment {
+    font-size: 15px;
+
+  }
 
 
 
